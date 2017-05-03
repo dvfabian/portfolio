@@ -1,0 +1,116 @@
+body {
+  background-image: URL("https://res.cloudinary.com/findingnilo/image/upload/c_scale,h_1080,q_auto:eco,w_1920/v1482698111/BackgroundTrans_nmf4lh.jpg");
+}
+
+.logo {
+  background-color: #4f0a0a;
+  font-size: 25px;
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  line-height: 15px;
+}
+
+li a {
+  color: white;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+li a:hover {
+  background-color: #4f0a0a;
+  color: white;
+  text-decoration: none;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.jumbotron {
+  background-image: url("https://res.cloudinary.com/findingnilo/image/upload/v1482628627/Jumbotron_yr0aqd.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.20);
+}
+
+h2 {
+  font-family: "Passion One";
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.profilepic {
+  border-radius: 50%;
+}
+
+.about, .projects {
+  padding: 10px 70px;
+  margin: 25px auto;
+  background-color: white;
+}
+
+.projects img {
+  max-height: 250px;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.projects img:hover {
+  opacity: 0.75;
+}
+
+.contact {
+  padding: 10px 25%;
+  margin: 25px auto;
+  background-color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
